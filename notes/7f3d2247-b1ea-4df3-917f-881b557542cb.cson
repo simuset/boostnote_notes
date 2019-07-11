@@ -1,0 +1,35 @@
+createdAt: "2019-07-11T14:58:20.054Z"
+updatedAt: "2019-07-11T15:04:19.253Z"
+type: "MARKDOWN_NOTE"
+folder: "4bd1a1b66665262390bf"
+title: "GDB Commands"
+tags: []
+content: '''
+  ## GDB Commands
+  
+  Addresses are written in the form *0x....
+  
+  [Command pie - GEF - GDB Enhanced Features documentation](https://gef.readthedocs.io/en/latest/commands/pie/)
+  ### pie break <address wrt to 0x0 base>
+  - Set breakpoint relative to 0x0 base
+  
+  ### pie run
+  - Get the program to run
+  
+  ### starti
+  - Breakpoint on first instruction
+  
+  ### nexti
+  - Single step with stepover
+  
+  ### stepi
+  - Single step without stepover
+  
+  ### b < addr >
+  - Set breakpoint
+  
+  [Quick Gdb Guide](http://condor.depaul.edu/glancast/373class/docs/gdb.html)
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
